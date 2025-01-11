@@ -1,0 +1,28 @@
+
+/* *****************MD-SCREEN***************** */
+@media (min-width: 768px) {
+  /* GENERAL-REUSABLE-COMPONENTS */
+  .container {
+    width: 750px;
+  }
+
+}
+/* *****************LG-SCREEN***************** */
+@media (min-width: 1024px) {
+  /* GENERAL-REUSABLE-COMPONENTS */
+  .container {
+    width: 970px;
+  }
+
+
+}
+/* *****************XL-SCREEN***************** */
+@media (min-width: 1280px) {
+  /* GENERAL-REUSABLE-COMPONENTS */
+  .container {
+    width: 1170px;
+  }
+}
+/* *****************XXL-SCREEN***************** */
+@media (min-width: 1536px) {
+}

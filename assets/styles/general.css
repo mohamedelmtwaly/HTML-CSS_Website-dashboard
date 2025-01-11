@@ -1,0 +1,55 @@
+
+/* ****VARIABLES-CSS**** */
+:root{
+  /* ===== color===== */
+  --main-color: #4D44B5;
+  /*  ===== typography ===== */
+  --font-primary: "Open Sans", sans-serif;
+  --text-color: #303972;
+  --gray-text-color: #a098ae;
+  /*  ===== space ===== */
+  /*  ===== border ===== */
+  --style-border: 1px solid #a098ae;
+}
+/* ****BASE**** */
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  line-height: 1.15;
+}
+body{
+  font-family: var(--font-primary);
+  font-size: 16px;
+}
+*:focus{
+  outline: none;
+}
+ul{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #6A60D9;
+}
+/* ****REUSABLE-COMPONENT**** */

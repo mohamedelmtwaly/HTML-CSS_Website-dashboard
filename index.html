@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKademi</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-img.png"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="assets/styles/all.min.css" />
+    <link rel="stylesheet" href="assets/styles/general.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <aside>
+        <div class="header">
+          <a href="index.html">
+            <img src="assets/images/favicon-img.png" alt="logo of page" />
+          <h3>AKademi</h3>
+        </a>
+        </div>
+        <ul>
+          <li class="active">
+            <a href="index.html">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="instructors.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Instructors</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <header class="head">
+          <div class="search">
+            <input
+              type="search"
+              name="user-search"
+              placeholder="Type A Keyword" />
+          </div>
+          <div class="icons">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <div class="img-profile">
+              <img src="assets/images/avatar.png" alt="ins" />
+            </div>
+          </div>
+        </header>
+        <section class="section-dashboard">
+          <h1>Dashboard</h1>
+          <div class="wrapper">
+            <article class="widget">
+              <div class="cover">
+                <div class="text">
+                  <h2 class="title">Welcome</h2>
+                  <span class="description">AKademi</span>
+                </div>
+                <div class="img-cover">
+                  <img src="assets/images/cover.png" alt="image of profile" />
+                </div>
+              </div>
+              <div class="info">
+                <div class="img-profile">
+                  <img src="assets/images/avatar.png" alt="ins" />
+                </div>
+                <div class="info-text">
+                  <p>Hazem Mohamed</p>
+                  <span>Founder & Chief Mentor</span>
+                  <a href="profile.html" class="btn">Profile</a>
+                </div>
+              </div>
+            </article>
+            <article class="widget">
+              <div class="text">
+                <h2 class="title">Quick Draft</h2>
+                <span class="description">Write A Draft For Your Ideas </span>
+              </div>
+              <div class="form">
+                <input
+                  class="input-style"
+                  type="text"
+                  name="user-title"
+                  placeholder="Title" />
+                <textarea
+                  name="user-message"
+                  placeholder=" Your Thought"></textarea>
+                <a href="#" class="btn">Save</a>
+              </div>
+            </article>
+            <article class="widget">
+              <div class="text">
+                <h2 class="title">Yearly Targets</h2>
+                <span class="description">Targets Of The Year</span>
+              </div>
+              <div class="target-row money">
+                <div class="icon-target">
+                  <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                </div>
+                <div class="info-target">
+                  <span>Money</span>
+                  <p>$20.000</p>
+                  <div class="progress-bar">
+                    <span style="width: 80%">
+                      <span>80%</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="target-row projects">
+                <div class="icon-target">
+                  <i class="fa-solid fa-code fa-lg"></i>
+                </div>
+                <div class="info-target">
+                  <span>Projects</span>
+                  <p>24</p>
+                  <div class="progress-bar">
+                    <span style="width: 60%">
+                      <span>60%</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="target-row team">
+                <div class="icon-target">
+                  <i class="fa-solid fa-user fa-lg"></i>
+                </div>
+                <div class="info-target">
+                  <span>Team</span>
+                  <p>11</p>
+                  <div class="progress-bar">
+                    <span style="width: 75%">
+                      <span>75%</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="widget">
+              <div class="text">
+                <h2 class="title">Tickets Statistics</h2>
+                <span class="description"
+                  >Everything About Support Tickets
+                </span>
+              </div>
+              <div class="cards-tickets">
+                <div class="card-ticket total">
+                  <i class="fa-regular fa-rectangle-list fa-2x mb-10"></i>
+                  <h3>2500</h3>
+                  <span>total</span>
+                </div>
+                <div class="card-ticket Pending">
+                  <i class="fa-solid fa-spinner fa-2x"></i>
+                  <h3>500</h3>
+                  <span>Pending</span>
+                </div>
+                <div class="card-ticket closed">
+                  <i class="fa-regular fa-circle-check fa-2x"></i>
+                  <h3>1900</h3>
+                  <span>Closed</span>
+                </div>
+                <div class="card-ticket deleted">
+                  <i class="fa-regular fa-rectangle-xmark fa-2x"></i>
+                  <h3>100</h3>
+                  <span>Deleted</span>
+                </div>
+              </div>
+            </article>
+            <article class="widget latest-news">
+              <div class="text">
+                <h2 class="title">Latest News</h2>
+              </div>
+              <div class="cards-latest">
+                <div class="card-latest">
+                  <div class="img-new">
+                    <img src="assets/images/new-1.jpg" alt="photo of new" />
+                  </div>
+                  <div class="info">
+                    <p>Created SASS Section</p>
+                    <span>New SASS Examples & Tutorials </span>
+                  </div>
+                  <div class="btn-style">3Days</div>
+                </div>
+                <div class="card-latest">
+                  <div class="img-new">
+                    <img src="assets/images/news-2.png" alt="photo of new" />
+                  </div>
+                  <div class="info">
+                    <p>Changed The Design</p>
+                    <span>A Brand New Website Design </span>
+                  </div>
+                  <div class="btn-style">5Days</div>
+                </div>
+                <div class="card-latest">
+                  <div class="img-new">
+                    <img src="assets/images/news-3.png" alt="photo of new" />
+                  </div>
+                  <div class="info">
+                    <p>Team Increased</p>
+                    <span>3 Developers Joined The Team </span>
+                  </div>
+                  <div class="btn-style">7Days</div>
+                </div>
+                <div class="card-latest">
+                  <div class="img-new">
+                    <img src="assets/images/new4.jpg" alt="photo of new" />
+                  </div>
+                  <div class="info">
+                    <p>Added Payment Gateway</p>
+                    <span>Many New Payment Gateways Added </span>
+                  </div>
+                  <div class="btn-style">9Days</div>
+                </div>
+              </div>
+            </article>
+            <article class="widget">
+              <div class="text">
+                <h2 class="title">Latest News</h2>
+              </div>
+              <div class="cards-latest">
+                <div class="card-latest">
+                  <div class="info">
+                    <p>Record One New Video</p>
+                    <span>Record Python Create Exe Project </span>
+                  </div>
+                  <div class="delete-icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+                <div class="card-latest">
+                  <div class="info">
+                    <p>Write Article</p>
+                    <span>Write Low Level vs High Level Languages </span>
+                  </div>
+                  <div class="delete-icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+                <div class="card-latest">
+                  <div class="info">
+                    <p>Finish Project</p>
+                    <span>Publish Academy Programming Project </span>
+                  </div>
+                  <div class="delete-icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+                <div class="card-latest">
+                  <div class="info">
+                    <p><del>Attend The Meeting</del></p>
+                    <span>
+                      <del>Attend The Project Business Analysis Meeting </del>
+                    </span>
+                  </div>
+                  <div class="delete-icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+                <div class="card-latest">
+                  <div class="info">
+                    <p>Finish Lesson</p>
+                    <span>Finish Teaching Flex Box </span>
+                  </div>
+                  <div class="delete-icon">
+                    <i class="fa-regular fa-trash-can delete"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="widget">
+              <div class="text">
+                <h2 class="title">Top Search Items</h2>
+              </div>
+              <div class="cards-search-items">
+                <div class="info">
+                  <span>Keyword</span>
+                  <span>Search Count </span>
+                </div>
+                <div class="info">
+                  <p>Programming</p>
+                  <div class="btn-style">220</div>
+                </div>
+                <div class="info">
+                  <p>JavaScript</p>
+                  <div class="btn-style">300</div>
+                </div>
+                <div class="info">
+                  <p>CSS</p>
+                  <div class="btn-style">400</div>
+                </div>
+                <div class="info">
+                  <p>React</p>
+                  <div class="btn-style">600</div>
+                </div>
+                <div class="info">
+                  <p>HTML</p>
+                  <div class="btn-style">700</div>
+                </div>
+                <div class="info">
+                  <p>Sass</p>
+                  <div class="btn-style">700</div>
+                </div>
+              </div>
+            </article>
+            <article class="widget uploads">
+              <div class="text">
+                <h2 class="title">Latest Uploads</h2>
+              </div>
+              <div class="cards-latest">
+                <div class="card-latest">
+                  <div>
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="info">
+                    <p>my-file.pdf</p>
+                    <span>Admin</span>
+                  </div>
+                  <div class="btn-style">5.3mb</div>
+                </div>
+                <div class="card-latest">
+                  <div>
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="info">
+                    <p>my-file.pdf</p>
+                    <span>Admin</span>
+                  </div>
+                  <div class="btn-style">5.6mb</div>
+                </div>
+                <div class="card-latest">
+                  <div>
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="info">
+                    <p>my-file.pdf</p>
+                    <span>Admin</span>
+                  </div>
+                  <div class="btn-style">3.2mb</div>
+                </div>
+                <div class="card-latest">
+                  <div>
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="info">
+                    <p>my-file.pdf</p>
+                    <span>Admin</span>
+                  </div>
+                  <div class="btn-style">4.3mb</div>
+                </div>
+              </div>
+            </article>
+            <article class="widget last-projects">
+              <div class="text">
+                <h2 class="title">Last Project Progress</h2>
+              </div>
+              <ul>
+                <li>Got The Project</li>
+                <li>Started The Project</li>
+                <li>The Project About To Finish</li>
+                <li class="animation-style">Test The Project</li>
+                <li id="last-project">Finish The Project & Get Money</li>
+              </ul>
+            </article>
+            <article class="widget Reminders">
+              <div class="text">
+                <h2 class="title">Reminders</h2>
+              </div>
+              <ul>
+                <li>
+                  <span class="circle"></span>
+                  <div class="text-reminders">
+                    <p>Check My Tasks List</p>
+                    <span>28/09/2022 - 12:00am</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="circle"></span>
+                  <div class="text-reminders">
+                    <p>Check Projects</p>
+                    <span>26/10/2022 - 12:00am</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="circle"></span>
+                  <div class="text-reminders">
+                    <p>Call All Clients</p>
+                    <span>05/11/2022 - 12:00am </span>
+                  </div>
+                </li>
+                <li>
+                  <span class="circle"></span>
+                  <div class="text-reminders">
+                    <p>Finish The Development Workshop</p>
+                    <span>20/12/2022 - 12:00am </span>
+                  </div>
+                </li>
+              </ul>
+            </article>
+          </div>
+          <div class="projects-table">
+            <div class="text">
+              <h2 class="title">Projects</h2>
+            </div>
+            <div class="response-table">
+              <table>
+                <thead>
+                  <tr>
+                    <td>Name</td>
+                    <td>Finish Date</td>
+                    <td>Requirements</td>
+                    <td>Difficulty</td>
+                    <td>Team</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Single price grid component</td>
+                    <td>10 May 2022</td>
+                    <td>HTML, CSS</td>
+                    <td>Easy</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>Four card feature section</td>
+                    <td>12 Oct 2021</td>
+                    <td>HTML, CSS</td>
+                    <td>Easy</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>Base Apparel coming soon page</td>
+                    <td>05 Sep 2021</td>
+                    <td>HTML, CSS, JS</td>
+                    <td>Junior</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Pricing component with toggle</td>
+                    <td>22 May 2021</td>
+                    <td>HTML, CSS, JS</td>
+                    <td>Junior</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>URL shortening API landing page</td>
+                    <td>24 May 2021</td>
+                    <td>HTML, CSS, JS, API</td>
+                    <td>Intermediate</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>Rock, Paper, Scissors game</td>
+                    <td>24 May 2021</td>
+                    <td>HTML, CSS, JS</td>
+                    <td>Advanced</td>
+                    <td>5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

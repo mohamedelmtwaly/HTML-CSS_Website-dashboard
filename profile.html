@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-img.png"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="assets/styles/all.min.css" />
+    <link rel="stylesheet" href="assets/styles/general.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <aside>
+        <div class="header">
+          <a href="index.html">
+            <img src="assets/images/favicon-img.png" alt="logo of page" />
+          <h3>AKademi</h3>
+        </a>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="instructors.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Instructors</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <header class="head">
+          <div class="search">
+            <input
+              type="search"
+              name="user-search"
+              placeholder="Type A Keyword" />
+          </div>
+          <div class="icons">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <div class="img-profile">
+              <img src="assets/images/avatar.png" alt="ins" />
+            </div>
+          </div>
+        </header>
+        <section class="section-profile">
+          <h1>Profile</h1>
+          <article class="information-widget">
+            <div class="box-avatar">
+              <div class="inner-avatar">
+                <div class="img-avatar">
+                  <img src="assets/images/avatar.png" alt="image avatar" />
+                </div>
+                <h3>Hazem Mohamed</h3>
+                <p>Level 20</p>
+                <div class="progress-rating">
+                  <span style="width: 70%"></span>
+                </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="rating-number">550 Rating</p>
+              </div>
+            </div>
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="inner-info-card">
+                  <h4>General Information</h4>
+                  <div class="container-boxes">
+                    <div class="box-info">
+                      <span>FullName:</span>
+                      <span>Hazem Mohamed</span>
+                    </div>
+                    <div class="box-info">
+                      <span>Gender:</span>
+                      <span>Male</span>
+                    </div>
+                    <div class="box-info">
+                      <span>Country:</span>
+                      <span>Egypt</span>
+                    </div>
+                    <div class="box-info">
+                      <label for="info">
+                        <input
+                          checked
+                          class="check-toggle"
+                          type="checkbox"
+                          name="inform-user"
+                          id="info" />
+                        <div class="switch"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card">
+                <div class="inner-info-card">
+                  <h4>Personal Information</h4>
+                  <div class="container-boxes">
+                    <div class="box-info">
+                      <span>Email:</span>
+                      <span> o@nn.sa</span>
+                    </div>
+                    <div class="box-info">
+                      <span>Phone:</span>
+                      <span>01014682018</span>
+                    </div>
+                    <div class="box-info">
+                      <span> Date Of Birth:</span>
+                      <span>25/10/1982</span>
+                    </div>
+                    <div class="box-info">
+                      <label for="chose">
+                        <input
+                          class="check-toggle"
+                          type="checkbox"
+                          name="chose"
+                          id="chose" />
+                        <div class="switch"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card">
+                <div class="inner-info-card">
+                  <h4>Job Information</h4>
+                  <div class="container-boxes">
+                    <div class="box-info">
+                      <span>Title:</span>
+                      <span>Full Stack Developer</span>
+                    </div>
+                    <div class="box-info">
+                      <span>Programming Language: </span>
+                      <span>JavaScript</span>
+                    </div>
+                    <div class="box-info">
+                      <span> Years Of Experience:</span>
+                      <span>15+ </span>
+                    </div>
+                    <div class="box-info">
+                      <label for="job">
+                        <input
+                          checked
+                          class="check-toggle"
+                          type="checkbox"
+                          name="job"
+                          id="job" />
+                        <div class="switch"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card">
+                <div class="inner-info-card">
+                  <h4>Billing Information</h4>
+                  <div class="container-boxes">
+                    <div class="box-info">
+                      <span>Payment Method:</span>
+                      <span> Paypal</span>
+                    </div>
+                    <div class="box-info">
+                      <span>Email:</span>
+                      <span>email@website.com </span>
+                    </div>
+                    <div class="box-info">
+                      <span> Subscription:</span>
+                      <span>Monthly </span>
+                    </div>
+                    <div class="box-info">
+                      <label for="billing">
+                        <input
+                          class="check-toggle"
+                          type="checkbox"
+                          name="billing"
+                          id="billing" />
+                        <div class="switch"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <div class="wrapper">
+            <article class="widget skill-widget">
+              <div class="text">
+                <h2 class="title">Skills</h2>
+                <span class="description">Complete Skills List</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">HTML</span>
+                <span class="btn-skill">Pugjs</span>
+                <span class="btn-skill">HAML</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">CSS</span>
+                <span class="btn-skill">SASS</span>
+                <span class="btn-skill">Stylus</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">JavaScript</span>
+                <span class="btn-skill">TypeScript</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">Vuejs</span>
+                <span class="btn-skill">Reactjs</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">Jest</span>
+                <span class="btn-skill">Jasmine</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">PHP</span>
+                <span class="btn-skill">Laravel</span>
+              </div>
+              <div class="box-skill">
+                <span class="btn-skill">Python</span>
+                <span class="btn-skill">Django</span>
+              </div>
+            </article>
+            <article class="widget activities-widget">
+              <div class="text">
+                <h2 class="title">Latest Activities</h2>
+                <span class="description"
+                  >Latest Activities Done By The User
+                </span>
+              </div>
+              <div class="card-activities">
+                <div class="img-activities">
+                  <img
+                    src="assets/images/activity-01.png"
+                    alt="photo of activities " />
+                </div>
+                <div class="info-activities">
+                  <span>Store </span>
+                  <span>Bought The Mastering Python Course </span>
+                </div>
+                <div class="date">
+                  <span>18:10 </span>
+                  <span>Yesterday </span>
+                </div>
+              </div>
+              <div class="card-activities">
+                <div class="img-activities">
+                  <img
+                    src="assets/images/activity-01.png"
+                    alt="photo of activities " />
+                </div>
+                <div class="info-activities">
+                  <span>Academy </span>
+                  <span>Got The PHP Certificate </span>
+                </div>
+                <div class="date">
+                  <span>16:05</span>
+                  <span>Yesterday </span>
+                </div>
+              </div>
+              <div class="card-activities">
+                <div class="img-activities">
+                  <img
+                    src="assets/images/activity-01.png"
+                    alt="photo of activities " />
+                </div>
+                <div class="info-activities">
+                  <span>Badges </span>
+                  <span>Unlocked The 10 Skills Badge </span>
+                </div>
+                <div class="date">
+                  <span>18:05 </span>
+                  <span>Yesterday </span>
+                </div>
+              </div>
+              <div class="card-activities">
+                <div class="img-activities">
+                  <img
+                    src="assets/images/activity-01.png"
+                    alt="photo of activities " />
+                </div>
+                <div class="info-activities">
+                  <span>Store </span>
+                  <span>Bought The Typescript Course</span>
+                </div>
+                <div class="date">
+                  <span>12:05 </span>
+                  <span>Yesterday </span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
