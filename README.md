@@ -1,6 +1,6 @@
 # HTML-CSS_Website-dashboard
 ##  Live Demo 🔗 :(https://mohamedelmtwaly.github.io/HTML-CSS_Website-dashboard/index.html/)
-![Project Banner](Template.PNG)
+![Project Banner](Template.JPG)
 ## 🚀 Features
 
 - **Fully Responsive**: The template is optimized for all screen sizes (desktop, tablet, mobile).
